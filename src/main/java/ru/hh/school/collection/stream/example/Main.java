@@ -12,13 +12,13 @@ public class Main {
 
   private static List<Vacancy> getVacancies() {
     List<Vacancy> vacancies = new ArrayList<>();
-    vacancies.add(new Vacancy(1, "Программист java", 100000));
-    vacancies.add(new Vacancy(2, "Программист php", 101000));
-    vacancies.add(new Vacancy(3, "Программист scala", 150000));
-    vacancies.add(new Vacancy(4, "Программист sql", 60000));
-    vacancies.add(new Vacancy(5, "Программист LabView", 30000));
-    vacancies.add(new Vacancy(6, "Программист C++", 111000));
-    vacancies.add(new Vacancy(7, "Программист pascal", 50000));
+    vacancies.add(new Vacancy(1, "Программист java", 100_000));
+    vacancies.add(new Vacancy(2, "Программист php", 101_000));
+    vacancies.add(new Vacancy(3, "Программист scala", 150_000));
+    vacancies.add(new Vacancy(4, "Программист sql", 60_000));
+    vacancies.add(new Vacancy(5, "Программист LabView", 30_000));
+    vacancies.add(new Vacancy(6, "Программист C++", 111_000));
+    vacancies.add(new Vacancy(7, "Программист pascal", 50_000));
     return vacancies;
   }
 }
