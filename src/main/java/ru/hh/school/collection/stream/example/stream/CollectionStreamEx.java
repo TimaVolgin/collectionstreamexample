@@ -1,6 +1,7 @@
-package ru.hh.school.collection.stream.example;
+package ru.hh.school.collection.stream.example.stream;
 
 import one.util.streamex.StreamEx;
+import ru.hh.school.collection.stream.example.Vacancy;
 
 import java.util.List;
 

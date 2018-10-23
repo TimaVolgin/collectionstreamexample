@@ -1,4 +1,6 @@
-package ru.hh.school.collection.stream.example;
+package ru.hh.school.collection.stream.example.stream;
+
+import ru.hh.school.collection.stream.example.Vacancy;
 
 import java.util.Comparator;
 import java.util.List;
