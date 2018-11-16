@@ -8,8 +8,9 @@ import java.util.List;
 public class Main {
 
   public static void main(String[] str) {
-    CollectionExample col = new CollectionStreamEx();
-    System.out.println(col.getVacanciesWithSalaryMore50000(getVacancies()));
+    System.out.println(new CollectionWithoutStream().getVacanciesWithSalaryMore50000(getVacancies()));
+    System.out.println(new CollectionStream().getVacanciesWithSalaryMore50000(getVacancies()));
+    System.out.println(new CollectionStreamEx().getVacanciesWithSalaryMore50000(getVacancies()));
   }
 
   private static List<Vacancy> getVacancies() {
