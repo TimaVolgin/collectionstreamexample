@@ -1,7 +1,6 @@
 package ru.hh.school.collection.stream.example.create;
 
-import java.util.ArrayList;
-import java.util.List;
+import java.util.*;
 
 public class Create4GenericWildcardCollection {
 
