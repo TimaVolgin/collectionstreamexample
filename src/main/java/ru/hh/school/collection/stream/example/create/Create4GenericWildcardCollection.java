@@ -5,16 +5,17 @@ import java.util.*;
 public class Create4GenericWildcardCollection {
 
   public static void main(String[] str) {
-    List<User> kennel = new ArrayList<>();
+    List<User> users = new ArrayList<>();
 
-    kennel.add(new Applicant("appl1"));
-    kennel.add(new Employer("empl2"));
+    users.add(new Applicant("appl1"));
+    users.add(new Employer("empl2"));
 
-    List<? super Applicant> objs = kennel;
+    List<? super Applicant> objs = users;
 
 //    objs.add(new Applicant("appl2"));
 //    objs.add(new Employer("empl1"));
 //    objs.add(new Object());
+//    objs.add(new User("user"));
 
     for (Object user: objs) {
       System.out.println(user.getClass().getName());

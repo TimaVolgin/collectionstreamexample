@@ -6,11 +6,11 @@ import java.util.List;
 public class Create2GenericWildcardCollection {
 
   public static void main(String[] args) {
-    List<Applicant> kennel = new ArrayList<>();
+    List<Applicant> applicants = new ArrayList<>();
 
-    kennel.add(new Applicant("appl1"));
+    applicants.add(new Applicant("appl1"));
 
-    List<?> objs = kennel;
+    List<?> objs = applicants;
 
     /*
      * But now we can't make any assumptions about the type of
@@ -22,6 +22,7 @@ public class Create2GenericWildcardCollection {
 //    objs.add(new Applicant("appl2"));
 //    objs.add(new Employer("appl2"));
 //    objs.add(new Object());
+//    objs.add(new User("user"));
 
     for (Object obj : objs) {
       System.out.println(obj.getClass().getName());

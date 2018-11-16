@@ -28,16 +28,15 @@ public class Create1GenericCollection {
 
 
 
-  // List<Object> list = new ArrayList<Integer>();
   private static void differentTypesLists() {
-    // Create a List of Integer objects
-    List<Applicant> kennel = new ArrayList<>();
+    // Create a List of Applicant objects
+    List<Applicant> applicants = new ArrayList<>();
 
-    // Adding a int is no problem
-    kennel.add(new Applicant("appl1"));
+    // Adding a Applicant is no problem
+    applicants.add(new Applicant("appl1"));
 
     // The following line results in a compiler error
-//    List<User> objs = kennel;
+//    List<User> objs = applicants;
 
     // Because if it were allowed, we could do this
 //    objs.add(new Employer("empl1"));

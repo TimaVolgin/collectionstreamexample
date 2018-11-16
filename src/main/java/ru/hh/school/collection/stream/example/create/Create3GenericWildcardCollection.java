@@ -6,14 +6,15 @@ import java.util.List;
 public class Create3GenericWildcardCollection {
 
   public static void main(String[] str) {
-    List<Applicant> kennel = new ArrayList<>();
+    List<Applicant> applicants = new ArrayList<>();
 
-    kennel.add(new Applicant("appl1"));
+    applicants.add(new Applicant("appl1"));
 
-    List<? extends User> objs = kennel;
+    List<? extends User> objs = applicants;
 
 //    objs.add(new Applicant("appl1"));
 //    objs.add(new Employer("appl1"));
+//    objs.add(new User("user"));
 
     for (User user: objs) {
       System.out.println(user.getClass().getName());

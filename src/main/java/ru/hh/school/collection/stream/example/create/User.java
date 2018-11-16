@@ -1,6 +1,6 @@
 package ru.hh.school.collection.stream.example.create;
 
-public abstract class User {
+public class User {
 
   private String name;
 
@@ -8,7 +8,9 @@ public abstract class User {
     this.name = name;
   }
 
-  abstract String getType();
+  public String getType() {
+    return "user";
+  };
 
   public void setName(String name) {
     this.name = name;
