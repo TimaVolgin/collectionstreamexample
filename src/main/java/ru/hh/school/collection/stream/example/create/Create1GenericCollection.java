@@ -21,6 +21,7 @@ public class Create1GenericCollection {
 
     System.out.println(intList2);
     System.out.println(intList1);
+//    List<User> applicants = new ArrayList<Applicant>();
   }
 
 
@@ -28,6 +29,7 @@ public class Create1GenericCollection {
 
 
 
+//  List<Object> list = new ArrayList<Integer>();
   private static void differentTypesLists() {
     // Create a List of Applicant objects
     List<Applicant> applicants = new ArrayList<>();
