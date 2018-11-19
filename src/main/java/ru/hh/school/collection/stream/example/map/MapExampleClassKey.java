@@ -6,8 +6,8 @@ import java.util.Map;
 public class MapExampleClassKey {
 
     public static void main(String str[]) {
-//        changeKey();
-        differentKey();
+        changeKey();
+//        differentKey();
     }
 
     public static void changeKey() {
@@ -22,6 +22,7 @@ public class MapExampleClassKey {
         e1.setId(13);
         System.out.println("value: " + map.get(e1));
         System.out.println("size: " + map.size());
+        System.out.println(map.entrySet().iterator().next().getValue());
     }
 
     public static void differentKey() {
