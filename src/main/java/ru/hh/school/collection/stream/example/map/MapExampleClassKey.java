@@ -1,5 +1,7 @@
 package ru.hh.school.collection.stream.example.map;
 
+import ru.hh.school.collection.stream.example.ExampleClass;
+
 import java.util.HashMap;
 import java.util.Map;
 

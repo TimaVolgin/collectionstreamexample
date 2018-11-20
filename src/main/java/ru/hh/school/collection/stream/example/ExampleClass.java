@@ -1,4 +1,4 @@
-package ru.hh.school.collection.stream.example.map;
+package ru.hh.school.collection.stream.example;
 
 import java.util.Objects;
 
