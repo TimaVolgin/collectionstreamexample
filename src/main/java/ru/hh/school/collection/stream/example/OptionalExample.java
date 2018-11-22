@@ -2,6 +2,11 @@ package ru.hh.school.collection.stream.example;
 
 import java.util.Optional;
 
+/**
+ * Не относится к теме, но...
+ * А вы точно знаете, как работает orElse у Optional?
+ * Что тут выведется?
+ */
 public class OptionalExample {
 
     public static void main(String str[]) {

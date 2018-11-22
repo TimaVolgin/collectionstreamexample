@@ -1,10 +1,13 @@
 package ru.hh.school.collection.stream.example.map;
 
-import ru.hh.school.collection.stream.example.ExampleClass;
+import ru.hh.school.collection.stream.example.dto.ExampleClass;
 
 import java.util.HashSet;
 import java.util.Set;
 
+/**
+ * Пример удаления объекта из Set, если объект был изменен
+ */
 public class SetExample {
 
     public static void main(String str[]) {

@@ -1,5 +1,9 @@
 package ru.hh.school.collection.stream.example.create;
 
+import ru.hh.school.collection.stream.example.dto.Applicant;
+import ru.hh.school.collection.stream.example.dto.Employer;
+import ru.hh.school.collection.stream.example.dto.User;
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -13,10 +17,9 @@ public class Create2GenericWildcardCollection {
     List<?> objs = applicants;
 
     /*
-     * But now we can't make any assumptions about the type of
-     * objects in the objs List. In fact, the only thing that
-     * we can safely do with them is treat them as Objects.
-     * For example, implicitly invoking toString() on them.
+     * Но теперь мы не можем делать никаких предположений о типе объектов в списке.
+     * Мы можем работать с ними только как с Objects.
+     * Например, вызвать toString()
      */
 
 //    objs.add(new Applicant("appl2"));
@@ -26,6 +29,7 @@ public class Create2GenericWildcardCollection {
 
     for (Object obj : objs) {
       System.out.println(obj.getClass().getName());
+//      System.out.println(obj.getType());
       System.out.println(obj);
     }
   }

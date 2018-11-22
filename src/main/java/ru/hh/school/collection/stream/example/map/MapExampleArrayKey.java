@@ -3,6 +3,9 @@ package ru.hh.school.collection.stream.example.map;
 import java.util.HashMap;
 import java.util.Map;
 
+/**
+ * Пример изменения ключа в Map, где array в качестве ключа
+ */
 class MapExampleArrayKey {
 
     public static void main(String str[]) {

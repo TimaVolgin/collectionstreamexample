@@ -1,10 +1,13 @@
 package ru.hh.school.collection.stream.example.map;
 
-import ru.hh.school.collection.stream.example.ExampleClass;
+import ru.hh.school.collection.stream.example.dto.ExampleClass;
 
 import java.util.HashMap;
 import java.util.Map;
 
+/**
+ * Пример изменения ключа в Map, где объект в качестве ключа
+ */
 public class MapExampleClassKey {
 
     public static void main(String str[]) {

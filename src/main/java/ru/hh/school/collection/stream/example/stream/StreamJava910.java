@@ -7,6 +7,9 @@ import java.util.function.Function;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
+/**
+ * Примеры использования stream, появившиеся в 9, 10 java
+ */
 public class StreamJava910 {
 
     public static void main(String str[]) {

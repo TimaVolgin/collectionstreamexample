@@ -1,4 +1,4 @@
-package ru.hh.school.collection.stream.example.create;
+package ru.hh.school.collection.stream.example.dto;
 
 public class Applicant extends User {
 

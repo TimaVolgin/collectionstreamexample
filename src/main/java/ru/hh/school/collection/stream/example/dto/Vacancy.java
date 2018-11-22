@@ -1,4 +1,4 @@
-package ru.hh.school.collection.stream.example;
+package ru.hh.school.collection.stream.example.dto;
 
 public class Vacancy {
 

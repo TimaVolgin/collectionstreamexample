@@ -1,7 +1,7 @@
-package ru.hh.school.collection.stream.example.stream;
+package ru.hh.school.collection.stream.example.stream.calc_salary;
 
 import one.util.streamex.StreamEx;
-import ru.hh.school.collection.stream.example.Vacancy;
+import ru.hh.school.collection.stream.example.dto.Vacancy;
 
 import java.util.List;
 

@@ -1,10 +1,10 @@
-package ru.hh.school.collection.stream.example;
+package ru.hh.school.collection.stream.example.dto;
 
 import java.util.Objects;
 
 public class ExampleClass {
-    int id;
-    String text;
+    private int id;
+    private String text;
 
     public ExampleClass(int id, String text) {
         this.id = id;

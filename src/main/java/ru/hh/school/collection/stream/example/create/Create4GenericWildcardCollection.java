@@ -1,5 +1,9 @@
 package ru.hh.school.collection.stream.example.create;
 
+import ru.hh.school.collection.stream.example.dto.Applicant;
+import ru.hh.school.collection.stream.example.dto.Employer;
+import ru.hh.school.collection.stream.example.dto.User;
+
 import java.util.*;
 
 public class Create4GenericWildcardCollection {
@@ -11,6 +15,12 @@ public class Create4GenericWildcardCollection {
     users.add(new Employer("empl2"));
 
     List<? super Applicant> objs = users;
+
+    /*
+     * Мы знаем, что в списке содержатся родители Applicant
+     * Мы можем работать с ними только как с Object.
+     * Например, вызвать toString()
+     */
 
 //    objs.add(new Applicant("appl2"));
 //    objs.add(new Employer("empl1"));

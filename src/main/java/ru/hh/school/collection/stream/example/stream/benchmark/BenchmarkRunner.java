@@ -1,4 +1,4 @@
-package ru.hh.school.collection.stream.example.stream;
+package ru.hh.school.collection.stream.example.stream.benchmark;
 
 public class BenchmarkRunner {
     public static void main(String[] args) throws Exception {

@@ -1,7 +1,9 @@
-package ru.hh.school.collection.stream.example.stream;
+package ru.hh.school.collection.stream.example.stream.benchmark;
 
 import org.openjdk.jmh.annotations.*;
-import ru.hh.school.collection.stream.example.Vacancy;
+import ru.hh.school.collection.stream.example.dto.Vacancy;
+import ru.hh.school.collection.stream.example.stream.calc_salary.CollectionStream;
+import ru.hh.school.collection.stream.example.stream.calc_salary.CollectionWithoutStream;
 
 import java.util.ArrayList;
 import java.util.List;
