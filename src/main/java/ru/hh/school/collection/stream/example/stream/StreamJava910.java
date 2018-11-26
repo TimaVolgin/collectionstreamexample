@@ -14,9 +14,9 @@ public class StreamJava910 {
 
     public static void main(String str[]) {
         iterateExample();
-        takeDropWhileExample();
-        ofNullableExample();
-        toUnmodifiableSet();
+//        takeDropWhileExample();
+//        ofNullableExample();
+//        toUnmodifiableSet();
     }
 
     private static void iterateExample() {
@@ -43,9 +43,9 @@ public class StreamJava910 {
     private static void ofNullableExample() {
         System.out.println();
         System.out.println("ofNullableExample:");
-        List<Integer> collection = Stream.iterate(0, i -> i < 10, i -> i + 1).collect(Collectors.toList());
+        List<Integer> collection = Stream.iterate(0, i -> i < 8, i -> i + 1).collect(Collectors.toList());
         Map<Integer, Integer> map = Stream.iterate(0, i -> i < 10, i -> i + 2)
-                .collect(Collectors.toMap(Function.identity(), Function.identity()));
+                .collect(Collectors.toMap(Function.identity(), v -> v*2));
 
         collection.stream()
                 .flatMap(s -> {

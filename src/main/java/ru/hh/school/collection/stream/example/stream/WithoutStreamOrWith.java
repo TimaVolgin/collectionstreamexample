@@ -1,6 +1,7 @@
 package ru.hh.school.collection.stream.example.stream;
 
 import java.util.*;
+import java.util.stream.Collectors;
 
 /**
  * Нужен или нет стрим в этих примерах?
