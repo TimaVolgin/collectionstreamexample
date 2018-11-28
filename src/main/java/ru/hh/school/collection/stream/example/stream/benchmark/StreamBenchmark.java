@@ -18,16 +18,19 @@ import java.util.stream.IntStream;
  *
  * Результаты одного из запусков:
  * Benchmark                                   Mode  Cnt          Score           Error  Units
- * StreamBenchmark.filterVacancyForTime        avgt   30  285276666,171 ±  21994616,889  ns/op
- * StreamBenchmark.filterVacancyStreamTime     avgt   30  271249085,123 ±  34723197,999  ns/op
- * StreamBenchmark.simpleForTime               avgt   30    1323278,497 ±     59637,799  ns/op
- * StreamBenchmark.simpleSmallForTime          avgt   30         10,445 ±         1,338  ns/op
- * StreamBenchmark.simpleSmallStreamTime       avgt   30         21,840 ±         1,382  ns/op
- * StreamBenchmark.simpleStreamTime            avgt   30    1520802,130 ±    206842,493  ns/op
- * StreamBenchmark.sumBranchStatementTime      avgt   30  139612956,594 ±  11486604,729  ns/op
  * StreamBenchmark.sumConditionalOperatorTime  avgt   30  141108345,079 ±   9403068,906  ns/op
+ * StreamBenchmark.sumBranchStatementTime      avgt   30  139612956,594 ±  11486604,729  ns/op
  * StreamBenchmark.sumParallelStreamsTime      avgt   30  338867514,000 ±  76935486,904  ns/op
  * StreamBenchmark.sumStreamsTime              avgt   30  816219110,656 ± 413719957,003  ns/op
+ *
+ * StreamBenchmark.filterVacancyForTime        avgt   30  285276666,171 ±  21994616,889  ns/op
+ * StreamBenchmark.filterVacancyStreamTime     avgt   30  271249085,123 ±  34723197,999  ns/op
+ *
+ * StreamBenchmark.simpleForTime               avgt   30    1323278,497 ±     59637,799  ns/op
+ * StreamBenchmark.simpleStreamTime            avgt   30    1520802,130 ±    206842,493  ns/op
+ *
+ * StreamBenchmark.simpleSmallForTime          avgt   30         10,445 ±         1,338  ns/op
+ * StreamBenchmark.simpleSmallStreamTime       avgt   30         21,840 ±         1,382  ns/op
  */
 @Fork(3)
 @BenchmarkMode(Mode.AverageTime)
